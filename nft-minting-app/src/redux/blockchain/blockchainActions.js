@@ -86,7 +86,7 @@ export const connect = () => {
         dispatch(connectFailed("Something went wrong."));
       }
     } else {
-      dispatch(connectFailed("Open the site within your wallet browser."));
+      dispatch(connectFailed("Open the site within the browser of your wallet."));
     }
   };
 };

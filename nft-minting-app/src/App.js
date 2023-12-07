@@ -222,7 +222,7 @@ function App() {
           ><s.TextTitle
           style={{ textAlign: "center", color: "var(--accent-text)" }}
         >
-          Whitelist-Sale is open
+          Public-Sale
         </s.TextTitle>
             <s.TextTitle
               style={{
@@ -270,11 +270,6 @@ function App() {
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}>
-                 Only mint if you hold a PREME Gold or a PREME Cuddle Buddies NFT in your wallet, otherwise the transaction will fail.
-                </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (

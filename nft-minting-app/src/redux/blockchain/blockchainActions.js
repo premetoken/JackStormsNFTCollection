@@ -49,10 +49,7 @@ export const connect = () => {
     });
     const CONFIG = await configResponse.json();
     const { ethereum } = window;
-    const metamaskIsInstalled = ethereum && ethereum.isMetaMask;
-    const TrustIsInstalled = ethereum && ethereum.isTrust;
-    const CoinbaseIsInstalled = ethereum && ethereum.isToshi;
-    if (metamaskIsInstalled ||TrustIsInstalled || CoinbaseIsInstalled) {
+    if (ethereum) {
       Web3EthContract.setProvider(ethereum);
       let web3 = new Web3(ethereum);
       try {

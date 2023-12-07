@@ -276,6 +276,16 @@ function App() {
                 >
                   Excluding gas fees.
                 </s.TextDescription>
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Whitelist Mint is open.
+                </s.TextDescription>
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                 Only mint If you hold a PREME Gold or a Cuddle Buddie NFT, otherwise the transaction will fail.
+                </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (

@@ -273,7 +273,7 @@ function App() {
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}>
-                 Only mint if you are hold a PREME Gold or a PREME Cuddle Buddies NFT in your wallet, otherwise the transaction will fail.
+                 Only mint if you hold a PREME Gold or a PREME Cuddle Buddies NFT in your wallet, otherwise the transaction will fail.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||

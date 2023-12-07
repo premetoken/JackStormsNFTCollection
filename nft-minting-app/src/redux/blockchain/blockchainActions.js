@@ -49,7 +49,10 @@ export const connect = () => {
     });
     const CONFIG = await configResponse.json();
     const { ethereum } = window;
-    if (ethereum) {
+    const metamaskIsInstalled = ethereum && ethereum.isMetaMask;
+    const TrustIsInstalled = ethereum && ethereum.isTrust;
+    const CoinbaseIsInstalled = ethereum && ethereum.isToshi;
+    if (metamaskIsInstalled ||TrustIsInstalled || CoinbaseIsInstalled) {
       Web3EthContract.setProvider(ethereum);
       let web3 = new Web3(ethereum);
       try {
@@ -86,7 +89,7 @@ export const connect = () => {
         dispatch(connectFailed("Something went wrong."));
       }
     } else {
-      dispatch(connectFailed("Open the site within the browser of your wallet."));
+      dispatch(connectFailed("Install compatible Wallet or open in wallet browser."));
     }
   };
 };

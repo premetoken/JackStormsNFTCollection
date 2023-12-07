@@ -89,7 +89,7 @@ export const connect = () => {
         dispatch(connectFailed("Something went wrong."));
       }
     } else {
-      dispatch(connectFailed("Install compatible Wallet or open in wallet browser."));
+      dispatch(connectFailed("Install compatible wallet or open site in wallet browser."));
     }
   };
 };

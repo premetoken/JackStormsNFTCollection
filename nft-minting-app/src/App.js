@@ -222,7 +222,7 @@ function App() {
           ><s.TextTitle
           style={{ textAlign: "center", color: "var(--accent-text)" }}
         >
-          Minting dApp
+          Minting is open for Whitelisted Wallets
         </s.TextTitle>
             <s.TextTitle
               style={{
@@ -272,18 +272,7 @@ function App() {
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Excluding gas fees.
-                </s.TextDescription>
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Whitelist Mint is open.
-                </s.TextDescription>
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}>
                  Only mint If you hold a PREME Gold or a Cuddle Buddie NFT, otherwise the transaction will fail.
                 </s.TextDescription>
                 <s.SpacerSmall />

@@ -222,7 +222,7 @@ function App() {
           ><s.TextTitle
           style={{ textAlign: "center", color: "var(--accent-text)" }}
         >
-          Minting is open for Whitelisted Wallets
+          Whitelist-Sale is open
         </s.TextTitle>
             <s.TextTitle
               style={{
@@ -273,7 +273,7 @@ function App() {
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}>
-                 Only mint If you hold a PREME Gold or a Cuddle Buddie NFT, otherwise the transaction will fail.
+                 Only mint if you are a PREME Gold NFT or a PREM Cuddle Buddie NFT holder, otherwise the transaction will fail.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||

@@ -378,12 +378,39 @@ function App() {
           </s.TextDescription>
           </s.Container>
           <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(1)" }}
-            />
+          <s.Container   flex={2}
+            jc={"center"}
+            ai={"center"}
+            style={{
+              backgroundColor: "var(--accent)",
+              padding: 24,
+              borderRadius: 24,
+              border: "0px dashed var(--secondary)",
+              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",}}>
+     <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}>
+1st Collection with 100 NFTS consisting of
+10 Artworks with each 10 NFTs.
+<s.SpacerSmall/>
+These Artworks will be available to buy on
+<StyledLink target={"_blank"} href="https://jackstorms.com" rel="noreferrer">
+                {truncate(" jackstorms.com", 15)}
+              </StyledLink>
+<s.SpacerSmall/>
+            Rewards for NFT holders:
+<p>- 5% of every sale of these Artworks will be split between all NFT holders</p>
+<p>- An additional 5% will be split between the 10 NFT holders of the sold Artwork</p>
+<p>- NFT holders will get 15% discount</p>
+<p>- Raffle between all buyers to win a watch band with a crystal dial</p>
+<s.SpacerSmall/>
+Visit our socials for more information, which you will find on
+<StyledLink target={"_blank"} href="https://premetoken.com/#contact" rel="noreferrer">
+                {truncate(" premetoken.com", 15)}
+              </StyledLink>
+</s.TextDescription>
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />

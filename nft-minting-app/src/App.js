@@ -403,7 +403,7 @@ These Artworks will be available to buy on
             Rewards for NFT holders:
 <p>- 5% of every sale of these Artworks will be split between all NFT holders</p>
 <p>- An additional 5% will be split between the 10 NFT holders of the sold Artwork</p>
-<p>- NFT holders will get 15% discount</p>
+<p>- NFT holders will get a 15% discount</p>
 <p>- Raffle between all buyers to win a watch band with a crystal dial</p>
 <s.SpacerSmall/>
 Visit our socials for more information, which you will find on
